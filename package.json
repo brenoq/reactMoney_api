@@ -1,0 +1,17 @@
+{
+  "name": "03-ignite-dtmoney-api",
+  "version": "1.0.0",
+  "description": "Fake api for reactMoney app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "watch": "json-server server.json --port=8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clone": "^2.1.2",
+    "json-server": "^0.17.3"
+  }
+}
